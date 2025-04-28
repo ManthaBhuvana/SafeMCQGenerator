@@ -4,7 +4,7 @@ pip>=25.1
 # Core
 streamlit==1.22.0
 transformers>=4.38.0
-torch==1.13.1
+torch>=2.2.0
 sentence-transformers>=2.6.1
 
 # NLP tools
