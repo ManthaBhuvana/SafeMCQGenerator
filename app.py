@@ -1,3 +1,8 @@
+try:
+    import fix_torch_classes
+except Exception as e:
+    print(f"Warning: Could not apply torch classes fix: {e}")
+
 import os
 os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
