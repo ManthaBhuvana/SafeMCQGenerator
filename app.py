@@ -1,7 +1,7 @@
 try:
-    import fix_torch_classes
+    import streamlit_patch
 except Exception as e:
-    print(f"Warning: Could not apply torch classes fix: {e}")
+    print(f"Warning: Could not apply streamlit patch: {e}")
 
 import streamlit as st
 from mcq_generator import ImprovedMCQGenerator, is_suitable_for_students, format_mcq
