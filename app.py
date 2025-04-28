@@ -1,5 +1,8 @@
 import streamlit as st
 from mcq_generator import ImprovedMCQGenerator, is_suitable_for_students, format_mcq
+import os
+os.environ["STREAMLIT_WATCHED_MODULES"] = "False"
+
 
 st.set_page_config(page_title="MCQ Generator", page_icon="📚", layout="wide")
 
