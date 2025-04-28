@@ -1,0 +1,10 @@
+streamlit
+transformers
+torch
+nltk
+scikit-learn
+rouge
+textstat
+matplotlib
+pandas
+psutil
