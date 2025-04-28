@@ -1,5 +1,6 @@
 [server]
 runOnSave = false
+enableCORS = false
 
 [browser]
 serverPort = 8501
