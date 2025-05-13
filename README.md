@@ -10,4 +10,4 @@ This is a Streamlit application that generates Multiple-Choice Questions (MCQs) 
 4. Enjoy your deployed app! 🚀
 
 ---
-Made with ❤️ using T5 and BART models.
+Made with using T5 and BART models.
